@@ -1,0 +1,23 @@
+.navContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navContainer .navWrapper {
+  position: fixed;
+  bottom: 2vh;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(245, 245, 245, 0.7607843137);
+  border-radius: 0.65rem;
+}
+.navContainer .navWrapper .navElement {
+  cursor: pointer;
+  padding: 1vw 2vw 1vw 2vw;
+  transition: all 200ms ease-in-out;
+  border-radius: 0.65rem;
+}
+.navContainer .navWrapper .navElement:hover {
+  background-color: #f5f5f5;
+  transform: scale(1.1, 1.1);
+}/*# sourceMappingURL=Navbar.css.map */

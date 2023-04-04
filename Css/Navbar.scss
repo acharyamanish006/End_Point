@@ -1,0 +1,27 @@
+.navContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .navWrapper{
+        position: fixed;  
+        bottom: 2vh;  
+        display: flex;
+        justify-content: space-between;
+        background-color: #f5f5f5c2;
+        border-radius: .65rem;
+
+
+        .navElement{
+            cursor: pointer;
+            padding: 1vw 2vw 1vw 2vw;
+            transition: all 200ms ease-in-out;
+            border-radius: .65rem;
+
+            &:hover{
+                background-color: #f5f5f5;
+                transform: scale(1.1,1.1);
+            }
+        }
+
+    }
+}
