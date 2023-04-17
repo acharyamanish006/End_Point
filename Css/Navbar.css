@@ -8,16 +8,35 @@
   bottom: 2vh;
   display: flex;
   justify-content: space-between;
-  background-color: rgba(245, 245, 245, 0.7607843137);
+  background-color: rgba(255, 255, 255, 0.8117647059);
   border-radius: 0.65rem;
+}
+.navContainer .navWrapper div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.navContainer .navWrapper div p {
+  font-size: 0.9rem;
+  color: rgb(52, 51, 51);
+}
+.navContainer .navWrapper .deleteEffect {
+  transform: scale(1.3, 1.2);
+  background-color: #ffffff;
+  transition: all 400ms ease-out !important;
+  color: #ff0000;
 }
 .navContainer .navWrapper .navElement {
   cursor: pointer;
-  padding: 1vw 2vw 1vw 2vw;
   transition: all 200ms ease-in-out;
+  padding: 1vw 2vw 1vw 2vw;
   border-radius: 0.65rem;
 }
 .navContainer .navWrapper .navElement:hover {
-  background-color: #f5f5f5;
-  transform: scale(1.1, 1.1);
+  background-color: #ffffff;
+  transform: scale(1.2, 1.1);
+}
+.navContainer .navWrapper .navElement:hover i {
+  color: rgb(104, 102, 102);
 }/*# sourceMappingURL=Navbar.css.map */

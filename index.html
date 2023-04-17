@@ -10,29 +10,51 @@
     <link rel="stylesheet" href="./Css/index.css">
     <link rel="stylesheet" href="./Css/Navbar.css">
     <!-- CSS End -->
+   <!-- javascript -->
 
+    <script type="module" src="./JS/Note.js" defer></script>
+    <script type="module" src="./JS/Line.js" defer></script>
+    <script type="module" src="./JS/Todo.js" defer></script>
+    <script type="module" src="./JS/Link.js" defer></script>
+    <script src="https://kit.fontawesome.com/f5dbbafd30.js" crossorigin="anonymous" ></script>
 </head>
 <body>
     <!-- main screen -->
-   <canvas>
-   </canvas> 
+   <!-- <canvas id="canvas">
+   </canvas>  -->
+   <div id="canvas">
+   </div> 
    <!-- end main screen -->
 
    <!-- NavBar -->
    <div class="navContainer">
     <div class="navWrapper">
 
-        <div class="lineArrow navElement " draggable="true">
-            <p>Line</p>
+        
+        <div class="draggable navElement " id="Note" draggable="true">
+        <i class="fa-solid fa-note-sticky"></i>
+            <p>Note</p>
         </div>
-        <div class="todo navElement" draggable="true">
+        <div class="draggable navElement" id="Link" draggable="true">
+        <i class="fa-solid fa-link"></i>
+            <p>Link</p>
+        </div>
+        <div class="draggable navElement" id="Todo" draggable="true">
+        <i class="fa-solid fa-list"></i>
             <p>Todo</p>
         </div>
-        <div class="trash navElement" draggable="true">
+        <div class="draggable navElement " id="Line" draggable="true">
+        <i class="fa-solid fa-arrow-right"></i>
+            <p>Line</p>
+        </div>
+        <div class=" navElement" id="Trash" draggable="true">
+            <i class="fa-solid fa-trash"></i>
             <p>Trash</p>
         </div>
     </div>
     </div>
    <!-- NavBar End -->
+
+ 
 </body>
 </html>

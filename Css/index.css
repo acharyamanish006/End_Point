@@ -2,4 +2,56 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+#canvas {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(230, 230, 230, 0.555);
+  position: relative;
+}
+#canvas .NOTE {
+  width: auto;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: rgba(222, 222, 222, 0.201);
+  cursor: pointer;
+}
+#canvas .NOTE textarea {
+  padding-left: 5%;
+  padding-top: 5%;
+  border: none;
+  outline: 1px solid rgba(94, 93, 93, 0.258);
+  border-radius: 5px;
+  cursor: pointer;
+  overflow: hidden;
+}
+#canvas .dropEffect {
+  transition: all 1000ms ease-out;
+}
+#canvas .draggingEffect {
+  background-color: rgba(184, 184, 184, 0.429) !important;
+  box-shadow: 7px 2px 22px 15px rgba(184, 184, 184, 0.429) !important;
+  cursor: move;
+  border-radius: 0.21rem;
+  opacity: 0;
+  display: none;
+}
+#canvas .InputField input {
+  padding: 0.5rem;
+}
+#canvas .Link {
+  outline: 1px solid rgba(94, 93, 93, 0.258);
+  resize: both;
+  overflow: hidden;
+  background-color: white;
+  border-radius: 0.21rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#canvas .Link a {
+  padding: 0.75rem 2rem 0.75rem 2rem;
+  text-decoration: none;
+  color: red;
 }/*# sourceMappingURL=index.css.map */
