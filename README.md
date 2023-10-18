@@ -1,6 +1,6 @@
-# End_Point
+# IdeaFlow
 
-End_Point is an easy-to-use tool designed to help you organize your ideas and projects into visual boards.
+IdeaFlow is an easy-to-use tool designed to help you organize your ideas and projects into visual boards.
 
 ![Screenshot from 2023-09-29 23-31-45](https://github.com/acharyamanish006/End_Point/assets/100832817/8765499f-697a-44d4-b2a4-5e51200127fe)
 
